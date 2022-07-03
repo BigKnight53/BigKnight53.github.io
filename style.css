@@ -1,0 +1,165 @@
+*{
+    margin:0;/*外边距*/
+    padding: 0;/*边距*/
+}
+body{
+    background: url(image/day.jpg) no-repeat;/*不覆盖*/
+    background-size: cover;/*背景尺寸，封面*/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+.top{
+    /* 设置宽度高度背景颜色 */
+    height: 5%; /*高度改为自动高度*/
+    width:100%;
+    padding-top: 5px;
+    background:rgba(244,244,244,0.2);
+    position: fixed; /*固定在顶部*/
+    left:0;
+    top: 0;/*离顶部的距离为0*/
+    margin-bottom: 5px;
+    backdrop-filter:blur(4px);
+  }
+  .top ul {
+      position: relative;
+    /* 清除ul标签的默认样式 */
+    width: auto;
+    /*宽度也改为自动*/
+    list-style-type: none;
+    white-space: nowrap;
+    overflow: hidden;
+    padding: 0;
+  }
+  .top li {
+    float: left;
+    /* 使li内容横向浮动，即横向排列  */
+    margin-right: 0%;
+    margin-left: 2%;
+    /* 两个li之间的距离*/
+    position: relative;
+    overflow: hidden;
+  }
+  .top li a {
+    /* 设置链接内容显示的格式*/
+    display: block;
+    /* 把链接显示为块元素可使整个链接区域可点击 */
+    color: white;
+    text-align: center;
+    padding: 3px;
+    overflow: hidden;
+    text-decoration: none;
+    font-size: 25px;
+    /* 去除下划线 */
+  }
+  .top ri {
+    float: right;
+    /* 使li内容横向浮动，即横向排列  */
+    margin-right: 0%;
+    margin-left: 2%;
+    /* 两个li之间的距离*/
+    position: relative;
+    overflow: hidden;
+  }
+  .top ri a {
+    /* 设置链接内容显示的格式*/
+    display: block;
+    /*把链接显示为块元素可使整个链接区域可点击 */
+    color: white;
+    text-align: center;
+    padding: 3px;
+    overflow: hidden;
+    text-decoration: none;
+    font-size: 25px;
+    /* 去除下划线 */
+}
+.container {
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	width: 700px;
+	height: 600px;
+}
+.container .box {
+    position: relative;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+	width: 100px;
+	height: 130px;
+	margin: 8px;
+	cursor: pointer;
+}
+.container .box .img {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100px;
+	height: 100px;
+	border-radius: 20px;
+	box-shadow: 18px 18px 30px rgba(0, 0, 0, 0.2),
+		-18px -18px 30px rgb(0, 0, 0);
+	transition: all 0.2s ease-out;
+}
+.container .box .img img {
+	width: 60px;
+	transition: all 0.2s ease-out;
+}
+.container .box p {
+	color: slategrey;
+}
+.container .box .img:hover {
+	box-shadow: 0 0 0 rgba(0, 0, 0, 0.2), 0 0 0 rgba(0, 0, 0, 0.8),
+		inset 18px 18px 30px rgba(0, 0, 0, 0.1),
+		inset -18px -18px 30px rgb(0, 0, 0);
+}
+.container .box .img:hover img {
+	width: 58px;
+}
+
+a{
+  /*链接去除下划线*/
+    text-decoration: none;
+    color: #f4f4f4;
+}
+
+button{
+  /*按钮相关设置*/
+    position: absolute;
+    font-size: 1.5em;
+    background: linear-gradient(90deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+    background-size: 400%;/*按钮背景大小*/
+    width: 125px;
+    height: 35px;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    border-radius: 20px;/*按钮边框圆滑度*/
+    z-index: 1;/*按钮文本置顶*/
+}
+button::before{
+    content: "";
+    position: absolute;
+    left: -5px;/*按钮边框变大*/
+    right: -5px;
+    top: -5px;
+    bottom: -5px;
+    background: linear-gradient(90deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+    background-size: 400%;
+    border-radius: 20px;
+    filter: blur(1px);/*emm，按钮虚了*/
+    z-index: -1;
+}
+button:hover::before{
+   animation: sun 7s infinite; /*按钮动画设置*/
+}
+button:hover{
+    animation: sun 7s infinite;/*鼠标悬停动画*/
+}
+@keyframes sun{
+    100%{
+        background-position: -400% 0;
+    }
+}
