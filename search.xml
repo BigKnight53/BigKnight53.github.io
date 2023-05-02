@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>Windows 11 小组件</title>
+      <link href="/posts/202352a.html"/>
+      <url>/posts/202352a.html</url>
+      
+        <content type="html"><![CDATA[<p>如果您不喜欢小组件，您可以禁用甚至卸载该功能，并在改变主意时重新安装它。</p><h2 id="在-Windows-11-中禁用小组件">在 Windows 11 中禁用小组件</h2><ol><li>右键单击任务栏</li><li>选择任务栏设置</li><li>在“任务栏项”下，将“小组件”切换为“关闭”。</li></ol><p>请注意，这将从任务栏中删除小组件图标，但它们如上所述继续运行。</p><p>在了解如何卸载小组件之前，请查看如何删除小组件。</p><h2 id="删除Windows-11-中的小组件">删除Windows 11 中的小组件</h2><ol><li>单击任务栏上的图标以启动小组件</li><li>在这里，您会注意到几个小组件，每个小组件都有一个三点图标，单击三点图标以获取更多选项，然后选择要删除的小组件。</li></ol><p>以这种方式删除的小部件可以重新添加回来，方法如下：</p><h3 id="再次将已删除的小组件重新添加到-Windows-11">再次将已删除的小组件重新添加到 Windows 11</h3><ol><li>打开小组件</li><li>向下滚动并单击添加小组件</li><li>选择一个小部件，然后单击“+”图标添加一个。</li><li>完成，向上滚动以注意新添加的小组件。</li></ol><h3 id="使用-Powershell-卸载-Windows-11-小组件">使用 Powershell 卸载 Windows 11 小组件</h3><ol><li>按 win 键并键入 Powershell，单击以管理员身份运行</li><li>复制并粘贴此命令，然后按回车键winget uninstall “Windows web experience Pack”</li><li>Windows 11 卸载负责小组件的 Windows Web 体验包 [[MicrosoftWindows.Client.WebExperience_cw5n1h2txyewy]。</li></ol><h2 id="在-Windows-11-中恢复-重新安装小组件">在 Windows 11 中恢复/重新安装小组件</h2><ol><li>要找回小部件，请访问浏览器中的 <a href="https://www.microsoft.com/store/productId/9MSSGKG348SP">Windows Web 体验商店链接</a></li><li>单击“获取”按钮并进一步安装它</li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 演示 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Markdown语法与外挂标签写法汇总</title>
       <link href="/posts/2013454d.html"/>
       <url>/posts/2013454d.html</url>
@@ -25,6 +44,25 @@
             <tag> 外挂标签 </tag>
             
         </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/posts/202141a.html"/>
+      <url>/posts/202141a.html</url>
+      
+        <content type="html"><![CDATA[<p>欢迎来到 <a href="https://hexo.io/">Hexo</a>！ 这是我的第一篇文章。有关详细信息，请查看 <a href="https://hexo.io/docs/">documentation</a> 如果您在使用 Hexo 时遇到任何问题，您可以在 <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> 中找到答案，也可以在 <a href="https://github.com/hexojs/hexo/issues">GitHub</a> 上询问我。</p><h2 id="快速入门">快速入门</h2><h3 id="创建新帖子">创建新帖子</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>更多信息： <a href="https://hexo.io/docs/writing.html">写作</a></p><h3 id="运行服务器">运行服务器</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>详细信息： <a href="https://hexo.io/docs/server.html">服务器</a></p><h3 id="生成静态文件">生成静态文件</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>详细信息： <a href="https://hexo.io/docs/generating.html">生成</a></p><h3 id="部署到远程站点">部署到远程站点</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>详细信息： <a href="https://hexo.io/docs/one-command-deployment.html">部署</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 演示 </category>
+          
+      </categories>
+      
       
     </entry>
     
