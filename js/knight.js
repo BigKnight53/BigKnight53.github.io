@@ -3179,7 +3179,7 @@ if (localStorage.getItem("blogbg") != undefined) {
 } else {
   document.getElementById("defineBg").innerText = `:root{
     --default-bg: url(https://cdn.staticaly.com/gh/bigknight53/cdn.gallery@master/img/home_bg.webp);
-    --darkmode-bg:url(https://cdn.staticaly.com/gh/bigknight53/cdn.gallery@master/img/dark_mode.webp);
+    --darkmode-bg:url(https://cdn.staticaly.com/gh/bigknight53/cdn.gallery@master/img/dark_mode_2.webp);
     --mobileday-bg: url(https://cdn.staticaly.com/gh/bigknight53/cdn.gallery@master/img/flower.png);
     --mobilenight-bg: url(https://cdn.staticaly.com/gh/bigknight53/cdn.gallery@master/img/night.png);
   }`;
