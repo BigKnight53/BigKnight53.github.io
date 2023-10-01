@@ -2912,10 +2912,10 @@ if (localStorage.getItem("blogbg") != undefined) {
   setBg(localStorage.getItem("blogbg"));
 } else {
   document.getElementById("defineBg").innerText = `:root{
-    --default-bg: url(https://gitee.com/BigKnight53/gallery/raw/master/default_bg.jpg);
-    --darkmode-bg: url(https://gitee.com/BigKnight53/gallery/raw/master/dark_bg.png);
-    --mobileday-bg: url(https://gitee.com/BigKnight53/gallery/raw/master/mobileday-bg.png);
-    --mobilenight-bg: url(https://gitee.com/BigKnight53/gallery/raw/master/mobilenight-bg.png);
+    --default-bg: url(https://gitee.com/BigKnight53/gallery/raw/master/default_bg.webp);
+    --darkmode-bg: url(https://gitee.com/BigKnight53/gallery/raw/master/dark_bg.webp);
+    --mobileday-bg: url(https://gitee.com/BigKnight53/gallery/raw/master/mobileday-bg.webp);
+    --mobilenight-bg: url(https://gitee.com/BigKnight53/gallery/raw/master/mobilenight-bg.webp);
   }`;
 }
 // 切换背景主函数
