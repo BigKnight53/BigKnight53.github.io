@@ -7665,13 +7665,13 @@ button#go-up:hover #percent {
 
 /* 个人信息卡片背景图 */
 [data-theme="light"] #aside-content > .card-widget.card-info {
-  background-image: url(https://tuchuang.voooe.cn/images/2023/02/28/springBg.png);
+  background-image: url(https://gitee.com/BigKnight53/gallery/raw/master/background/springBg.webp);
   background-repeat: no-repeat;
   background-attachment: inherit;
   background-size: 100%;
 }
 [data-theme="dark"] #aside-content > .card-widget.card-info {
-  background-image: url(https://tuchuang.voooe.cn/images/2023/02/28/aurora.webp);
+  background-image: url(https://gitee.com/BigKnight53/gallery/raw/master/background/auroraBg.webp);
   background-repeat: no-repeat;
   background-attachment: inherit;
   background-size: 100%;
@@ -7737,7 +7737,7 @@ input#pic-link {
 
 /* heo 加载动画头像 */
 .loading-img {
-  background: url(https://i2.hdslb.com/bfs/face/358fc25dcbdc39a7c280a107a1f4c4e727ee4236.jpg@240w_240h_1c_1s.webp)
+  background: url(https://gitee.com/BigKnight53/gallery/raw/master/avatar.webp)
     no-repeat center center;
   background-size: cover;
 }
