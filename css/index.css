@@ -6581,9 +6581,45 @@ blockquote.pullquote.right {
 
 /* 字体引入 */
 @font-face {
-  font-family: Mojangles;
-  src: url(https://gitee.com/BigKnight53/fonts/raw/master/MOJANGLES.TTF);
-  font-display: swap;
+  font-family: YSHST;
+  src: url(https://gitee.com/BigKnight53/fonts/raw/master/优设好身体.woff2);
+  font-display: swap
+}
+
+@font-face {
+  font-family: MiSans;
+  src: url(https://gitee.com/BigKnight53/fonts/raw/master/MiSans.woff2);
+  font-display: swap
+}
+
+@font-face {
+  font-family: HYTMR;
+  src: url(https://gitee.com/BigKnight53/fonts/raw/master/HYTangMeiRen55W.woff2);
+  font-display: swap
+}
+
+@font-face {
+  font-family: LXGW;
+  src: url(https://gitee.com/BigKnight53/fonts/raw/master/霞鹜文楷.woff2);
+  font-display: swap
+}
+
+@font-face {
+  font-family: TTQHB;
+  src: url(https://gitee.com/BigKnight53/fonts/raw/master/甜甜圈海报字体.woff2);
+  font-display: swap
+}
+
+@font-face {
+  font-family: Consolas_1;
+  src: url(https://gitee.com/BigKnight53/fonts/raw/master/Consolas.woff2);
+  font-display: swap
+}
+
+@font-face {
+  font-family: ZhuZiAWan;
+  src: url(https://gitee.com/BigKnight53/fonts/raw/master/ZhuZiAWan2.woff2);
+  font-display: swap
 }
 
 /* 特定部件字体调用 */
