@@ -137,15 +137,6 @@
   </url>
   
   <url>
-    <loc>https://bigknight53.github.io/site/time/index.html</loc>
-    
-    <lastmod>2023-03-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://bigknight53.github.io/life/music/index.html</loc>
     
     <lastmod>2023-03-21</lastmod>
@@ -155,7 +146,7 @@
   </url>
   
   <url>
-    <loc>https://bigknight53.github.io/social/fcircle/index.html</loc>
+    <loc>https://bigknight53.github.io/site/time/index.html</loc>
     
     <lastmod>2023-03-21</lastmod>
     
@@ -165,6 +156,15 @@
   
   <url>
     <loc>https://bigknight53.github.io/social/link/index.html</loc>
+    
+    <lastmod>2023-03-21</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://bigknight53.github.io/social/fcircle/index.html</loc>
     
     <lastmod>2023-03-21</lastmod>
     
