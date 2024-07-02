@@ -110,7 +110,7 @@
   </url>
   
   <url>
-    <loc>https://bigknight53.github.io/box/nav/index.html</loc>
+    <loc>https://bigknight53.github.io/life/games/index.html</loc>
     
     <lastmod>2023-03-21</lastmod>
     
@@ -128,16 +128,7 @@
   </url>
   
   <url>
-    <loc>https://bigknight53.github.io/site/time/index.html</loc>
-    
-    <lastmod>2023-03-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://bigknight53.github.io/life/games/index.html</loc>
+    <loc>https://bigknight53.github.io/box/nav/index.html</loc>
     
     <lastmod>2023-03-21</lastmod>
     
@@ -147,6 +138,15 @@
   
   <url>
     <loc>https://bigknight53.github.io/life/music/index.html</loc>
+    
+    <lastmod>2023-03-21</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://bigknight53.github.io/site/time/index.html</loc>
     
     <lastmod>2023-03-21</lastmod>
     
@@ -198,6 +198,13 @@
   </url>
   
   <url>
+    <loc>https://bigknight53.github.io/tags/Windows%E4%BC%98%E5%8C%96/</loc>
+    <lastmod>2024-07-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://bigknight53.github.io/tags/Game/</loc>
     <lastmod>2024-07-02</lastmod>
     <changefreq>weekly</changefreq>
@@ -206,13 +213,6 @@
   
   <url>
     <loc>https://bigknight53.github.io/tags/Hello-World%EF%BC%88/</loc>
-    <lastmod>2024-07-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://bigknight53.github.io/tags/Windows%E4%BC%98%E5%8C%96/</loc>
     <lastmod>2024-07-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
