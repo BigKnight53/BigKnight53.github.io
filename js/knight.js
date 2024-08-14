@@ -2180,13 +2180,6 @@ if (m == 12 && dd == 13) {
     sessionStorage.setItem("isPopupWindow", "1");
   }
 }
-if (m == 8 && dd == 14) {
-  document.getElementsByTagName("html")[0].setAttribute("style", "filter: grayscale(60%);");
-  if (sessionStorage.getItem("isPopupWindow") != "1") {
-    Swal.fire("今天是世界慰安妇纪念日\n🪔勿忘国耻，振兴中华🪔");
-    sessionStorage.setItem("isPopupWindow", "1");
-  }
-}
 
 
 // 节假日
@@ -2196,12 +2189,7 @@ if (m == 10 && dd <= 3) {//国庆节
     sessionStorage.setItem("isPopupWindow", "1");
   }
 }
-if (m == 8 && dd == 15) {//搞来玩的，小日子投降
-  if (sessionStorage.getItem("isPopupWindow") != "1") {
-    Swal.fire("小日子已经投降" + (y - 1945).toString() + "年了😃");
-    sessionStorage.setItem("isPopupWindow", "1");
-  }
-}
+
 if (m == 1 && dd == 1) {//元旦节
   if (sessionStorage.getItem("isPopupWindow") != "1") {
     Swal.fire(y.toString() + "年元旦快乐！🎉");
@@ -2215,6 +2203,9 @@ if (m == 3 && dd == 8) {//妇女节
   }
 }
 l = ["非常抱歉，因为不可控原因，博客将于明天停止运营！", "好消息，日本没了！", "美国垮了，原因竟然是川普！", "微软垮了！", "你的电脑已经过载，建议立即关机！", "你知道吗？站长很喜欢你哦！", "一分钟有61秒哦", "你喜欢的人跟别人跑了！"]
+
+/*
+
 if (m == 4 && dd == 1) {//愚人节，随机谎话
   if (sessionStorage.getItem("isPopupWindow") != "1") {
     Swal.fire(l[Math.floor(Math.random() * l.length)]);
@@ -2257,6 +2248,8 @@ if (m == 12 && dd == 25) {//圣诞节
     sessionStorage.setItem("isPopupWindow", "1");
   }
 }
+
+*/
 
 //传统节日部分
 
