@@ -8035,6 +8035,7 @@ a:hover {
   background-clip: content-box;
   display: inline-block;
   -webkit-appearance: none;
+  appearance: none;
   user-select: none;
   outline: none;
   transform: translateY(5px);
@@ -8130,6 +8131,7 @@ div#rightside {
 input[type="range"] {
   display: block;
   -webkit-appearance: none;
+  appearance: none;
   background-color: #bdc3c7;
   width: 100%;
   height: 5px;
@@ -9031,6 +9033,11 @@ i.fas.fa-cog.right_side {
 }
 /* 波浪黑夜模式隐藏 */
 [data-theme="dark"] .main-hero-waves-area {
+  display: none;
+}
+
+/* 波浪白天模式隐藏 */
+[data-theme="light"] .main-hero-waves-area {
   display: none;
 }
 
