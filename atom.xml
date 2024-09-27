@@ -23,7 +23,7 @@
     <published>2024-09-23T08:00:00.000Z</published>
     <updated>2024-09-23T08:00:00.000Z</updated>
     
-    <content type="html"><![CDATA[<div class="img-wrap"><div class="img-bg"><img class="img" src="https://gitee.com/BigKnight53/gallery/raw/master/album/wanhui.webp" alt="好欸，是演唱会！" style="width:400px;"/></div><span class="image-caption">好欸，是演唱会！</span></div><!-- <img src="https://gitee.com/BigKnight53/gallery/raw/master/album/wanhui.webp" alt="cover" style="zoom:50%;" /> -->]]></content>
+    <content type="html"><![CDATA[<div class="timeline pink"><div class='timeline-item headline'><div class='timeline-item-title'><div class='item-circle'><p>时间轴样式</p></div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>2024-09-23 好欸，是演唱会！</p></div></div><div class='timeline-item-content'><p><img src="https://cdn.jsdelivr.net/gh/fomalhaut1998/markdown_pic/img/code.png" alt="code"></p></div></div></div>]]></content>
     
     
     <summary type="html">上学不忘养我人！</summary>
