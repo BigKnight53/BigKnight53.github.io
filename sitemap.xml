@@ -4,7 +4,7 @@
   <url>
     <loc>http://bigknight53.github.io/posts/2024923a.html</loc>
     
-    <lastmod>2024-09-23</lastmod>
+    <lastmod>2024-10-10</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -137,7 +137,7 @@
   </url>
   
   <url>
-    <loc>http://bigknight53.github.io/life/music/index.html</loc>
+    <loc>http://bigknight53.github.io/life/movies/index.html</loc>
     
     <lastmod>2023-03-21</lastmod>
     
@@ -146,7 +146,7 @@
   </url>
   
   <url>
-    <loc>http://bigknight53.github.io/life/movies/index.html</loc>
+    <loc>http://bigknight53.github.io/life/music/index.html</loc>
     
     <lastmod>2023-03-21</lastmod>
     
@@ -164,7 +164,7 @@
   </url>
   
   <url>
-    <loc>http://bigknight53.github.io/social/link/index.html</loc>
+    <loc>http://bigknight53.github.io/social/fcircle/index.html</loc>
     
     <lastmod>2023-03-21</lastmod>
     
@@ -173,7 +173,7 @@
   </url>
   
   <url>
-    <loc>http://bigknight53.github.io/social/fcircle/index.html</loc>
+    <loc>http://bigknight53.github.io/social/link/index.html</loc>
     
     <lastmod>2023-03-21</lastmod>
     
@@ -200,6 +200,13 @@
 
   
   <url>
+    <loc>http://bigknight53.github.io/tags/Life/</loc>
+    <lastmod>2024-10-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://bigknight53.github.io/tags/Code/</loc>
     <lastmod>2024-10-10</lastmod>
     <changefreq>weekly</changefreq>
@@ -222,13 +229,6 @@
   
   <url>
     <loc>http://bigknight53.github.io/tags/%E5%A4%96%E6%8C%82%E6%A0%87%E7%AD%BE/</loc>
-    <lastmod>2024-10-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://bigknight53.github.io/tags/Life/</loc>
     <lastmod>2024-10-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
