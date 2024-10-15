@@ -23,7 +23,7 @@
     <published>2024-10-15T08:00:00.000Z</published>
     <updated>2024-10-15T08:00:00.000Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="原码、反码、补码">原码、反码、补码</h2>]]></content>
+    <content type="html"><![CDATA[<h2 id="原码、反码、补码">原码、反码、补码</h2><p>首先引入一下，一串二进制数101110001，它可以转化化为<table><tr><td bgcolor=MistyRose>pow(2,8)+pow(2,6)+pow(2,5)+pow(2,4)+pow(2,0)=256+64+32+16+1=369</td></tr></table></p>]]></content>
     
     
     <summary type="html">原码反码补码！</summary>
