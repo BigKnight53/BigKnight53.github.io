@@ -20,15 +20,6 @@
   </url>
   
   <url>
-    <loc>http://bigknight53.github.io/posts/202472a.html</loc>
-    
-    <lastmod>2024-07-02</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://bigknight53.github.io/personal/time/love/lovely.html</loc>
     
     <lastmod>2024-01-13</lastmod>
@@ -207,6 +198,13 @@
   </url>
   
   <url>
+    <loc>http://bigknight53.github.io/tags/Life/</loc>
+    <lastmod>2024-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://bigknight53.github.io/tags/Markdown/</loc>
     <lastmod>2024-10-15</lastmod>
     <changefreq>weekly</changefreq>
@@ -221,7 +219,7 @@
   </url>
   
   <url>
-    <loc>http://bigknight53.github.io/tags/Life/</loc>
+    <loc>http://bigknight53.github.io/tags/Windows%E4%BC%98%E5%8C%96/</loc>
     <lastmod>2024-10-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -229,13 +227,6 @@
   
   <url>
     <loc>http://bigknight53.github.io/tags/Game/</loc>
-    <lastmod>2024-10-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://bigknight53.github.io/tags/Windows%E4%BC%98%E5%8C%96/</loc>
     <lastmod>2024-10-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
