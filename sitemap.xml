@@ -101,6 +101,15 @@
   </url>
   
   <url>
+    <loc>http://bigknight53.github.io/box/gallery/index.html</loc>
+    
+    <lastmod>2023-03-21</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://bigknight53.github.io/box/animation/index.html</loc>
     
     <lastmod>2023-03-21</lastmod>
@@ -119,15 +128,6 @@
   </url>
   
   <url>
-    <loc>http://bigknight53.github.io/box/gallery/index.html</loc>
-    
-    <lastmod>2023-03-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://bigknight53.github.io/life/games/index.html</loc>
     
     <lastmod>2023-03-21</lastmod>
@@ -137,7 +137,7 @@
   </url>
   
   <url>
-    <loc>http://bigknight53.github.io/life/music/index.html</loc>
+    <loc>http://bigknight53.github.io/life/movies/index.html</loc>
     
     <lastmod>2023-03-21</lastmod>
     
@@ -146,7 +146,7 @@
   </url>
   
   <url>
-    <loc>http://bigknight53.github.io/life/movies/index.html</loc>
+    <loc>http://bigknight53.github.io/life/music/index.html</loc>
     
     <lastmod>2023-03-21</lastmod>
     
