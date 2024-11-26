@@ -4,6 +4,27 @@
   
     
     <entry>
+      <title>C# 数学问题</title>
+      <link href="/posts/20241126a.html"/>
+      <url>/posts/20241126a.html</url>
+      
+        <content type="html"><![CDATA[<h1>素数</h1><figure class="highlight c#"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//判断素数的函数isPrime</span></span><br><span class="line"><span class="function"><span class="built_in">int</span> <span class="title">isPrime</span>(<span class="params"><span class="built_in">int</span> n</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="built_in">int</span> i;</span><br><span class="line">    <span class="comment">//质数(素数)是指在大于 1 的自然数中，除了 1 和它自身外，不能被其他自然数整除的数</span></span><br><span class="line">    <span class="keyword">if</span>(n&lt;<span class="number">2</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="comment">//检查i=2到i=sqrt(n)即n的平方根是否有因子</span></span><br><span class="line">    <span class="comment">//在n较大时，对比i=2到i&lt;=n-1提高了效率</span></span><br><span class="line">    <span class="keyword">for</span>(i=<span class="number">2</span>;i*i&lt;=n;i++)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">if</span>(n%i==<span class="number">0</span>)</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">1</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> C# </tag>
+            
+            <tag> 数学问题 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>C# 冒泡排序_初见</title>
       <link href="/posts/20241117a.html"/>
       <url>/posts/20241117a.html</url>
