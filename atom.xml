@@ -6,7 +6,7 @@
   <link href="http://bigknight53.github.io/atom.xml" rel="self"/>
   
   <link href="http://bigknight53.github.io/"/>
-  <updated>2024-11-27T13:42:00.000Z</updated>
+  <updated>2024-12-01T08:54:00.000Z</updated>
   <id>http://bigknight53.github.io/</id>
   
   <author>
@@ -17,7 +17,26 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>C# 数学问题</title>
+    <title>Excel 指南</title>
+    <link href="http://bigknight53.github.io/posts/20241201a.html"/>
+    <id>http://bigknight53.github.io/posts/20241201a.html</id>
+    <published>2024-12-01T08:54:00.000Z</published>
+    <updated>2024-12-01T08:54:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1>Excel 公式</h1><ul><li>=Rank(=RANK(L2,$L$2:$L$62,0))</li><li>=SUM(E2:K2)</li><li>=AVERAGE(E2:K2)</li><li>=MID(A2,4,1)&amp;“班”</li><li>=IF(AND(L2&gt;650,E2&gt;95,F2&gt;95,G2&gt;95),“有”,“没有”)</li><li>=COUNTIF(C2:C62,“1班”)</li><li>=VLOOKUP(E3,编号对照!$A$1:$C$19,2,FALSE)</li></ul>]]></content>
+    
+    
+    <summary type="html">怎么还要学这个（恼</summary>
+    
+    
+    
+    
+    <category term="Excel" scheme="http://bigknight53.github.io/tags/Excel/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>C 数学问题</title>
     <link href="http://bigknight53.github.io/posts/20241126a.html"/>
     <id>http://bigknight53.github.io/posts/20241126a.html</id>
     <published>2024-11-26T11:40:00.000Z</published>
@@ -31,20 +50,20 @@
     
     
     
-    <category term="C#" scheme="http://bigknight53.github.io/tags/C/"/>
+    <category term="C" scheme="http://bigknight53.github.io/tags/C/"/>
     
     <category term="数学问题" scheme="http://bigknight53.github.io/tags/%E6%95%B0%E5%AD%A6%E9%97%AE%E9%A2%98/"/>
     
   </entry>
   
   <entry>
-    <title>C# 算法</title>
+    <title>C 算法</title>
     <link href="http://bigknight53.github.io/posts/20241117a.html"/>
     <id>http://bigknight53.github.io/posts/20241117a.html</id>
     <published>2024-11-17T15:40:00.000Z</published>
     <updated>2024-11-27T13:40:00.000Z</updated>
     
-    <content type="html"><![CDATA[<h1>冒泡排序 / 起泡法</h1><ul><li>冒泡排序（Bubble Sort）是一种简单的排序算法。它重复地走访过要排序的数列，一次比较两个元素，如果他们的顺序错误就把他们交换过来。走访数列的工作是重复地进行直到没有再需要交换，也就是说该数列已经排序完成。以下为核心代码段，可单独作为排序函数</li></ul><figure class="highlight c#"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span> (<span class="built_in">int</span> i = <span class="number">0</span>; i &lt; n; i++)</span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">for</span> (<span class="built_in">int</span> j = <span class="number">0</span>; j &lt; n - i - <span class="number">1</span>; j++)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">if</span> (arr[j] &gt; arr[j + <span class="number">1</span>])</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="built_in">int</span> temp = arr[j];</span><br><span class="line">            arr[j] = arr[j + <span class="number">1</span>];</span><br><span class="line">            arr[j + <span class="number">1</span>] = temp;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h1>选择排序</h1><ul><li>选择排序（Selection Sort）是一种简单直观的排序算法。它的工作原理是首先在未排序序列中找到最小（大）元素，存放到排序序列的起始位置，然后，再从剩余未排序元素中继续寻找最小（大）元素，然后放到已排序序列的末尾。以此类推，直到所有元素均排序完毕。以下为核心代码段，可单独作为排序函数</li></ul><figure class="highlight c#"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span> (<span class="built_in">int</span> i = <span class="number">0</span>; i &lt; n - <span class="number">1</span>; i++)</span><br><span class="line">&#123;</span><br><span class="line">    <span class="built_in">int</span> minIndex = i;</span><br><span class="line">    <span class="keyword">for</span> (<span class="built_in">int</span> j = i + <span class="number">1</span>; j &lt; n; j++)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">if</span> (arr[j] &lt; arr[minIndex])</span><br><span class="line">        &#123;</span><br><span class="line">            minIndex = j;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="comment">//将每次找到的最小元素放到已排序序列的末尾</span></span><br><span class="line">    <span class="built_in">int</span> temp = arr[i];</span><br><span class="line">    arr[i] = arr[minIndex];</span><br><span class="line">    arr[minIndex] = temp;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h1>递归</h1><ul><li>递归（Recursion）是一种编程技巧，它利用函数的调用自身的特点，来解决一些问题。递归函数一般都有一个基线条件，当这个条件满足时，递归函数就停止调用自身，并返回一个基准值。以下为递归函数的模板</li></ul><div class="note warning flat"><p>注意：递归函数的调用栈的最大深度受限于系统的内存限制，因此，在计算量大的情况下，递归函数的使用要慎重。</p></div><figure class="highlight c#"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="built_in">int</span> <span class="title">factorial</span>(<span class="params"><span class="built_in">int</span> n</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">if</span> (n == <span class="number">1</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="number">1</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span></span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">return</span> n * factorial(n - <span class="number">1</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h1>记忆化搜索 TODO</h1><!-- * 记忆化搜索（Memoization Search）是一种优化搜索算法，它通过存储中间结果，避免重复计算，从而达到优化搜索效率的目的。以下为核心代码段，可单独作为搜索函数```C#int[,] memo = new int[n + 1, n + 1];int minCost(int[] cost, int n){    if (n == 0 || n == 1)    {        return 0;    }    if (memo[n, cost[n - 1]] != -1)    {        return memo[n, cost[n - 1]];    }    int min = int.MaxValue;    for (int i = 1; i <= n; i++)    {        int temp = minCost(cost, n - i) + i * cost[n - 1];        if (temp < min)        {            min = temp;        }    }    memo[n, cost[n - 1]] = min;    return min;}``` -->]]></content>
+    <content type="html"><![CDATA[<h1>冒泡排序 / 起泡法</h1><ul><li>冒泡排序（Bubble Sort）是一种简单的排序算法。它重复地走访过要排序的数列，一次比较两个元素，如果他们的顺序错误就把他们交换过来。走访数列的工作是重复地进行直到没有再需要交换，也就是说该数列已经排序完成。以下为核心代码段，可单独作为排序函数</li></ul><figure class="highlight c#"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span> (<span class="built_in">int</span> i = <span class="number">0</span>; i &lt; n; i++)</span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">for</span> (<span class="built_in">int</span> j = <span class="number">0</span>; j &lt; n - i - <span class="number">1</span>; j++)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">if</span> (arr[j] &gt; arr[j + <span class="number">1</span>])</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="built_in">int</span> temp = arr[j];</span><br><span class="line">            arr[j] = arr[j + <span class="number">1</span>];</span><br><span class="line">            arr[j + <span class="number">1</span>] = temp;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h1>选择排序</h1><ul><li>选择排序（Selection Sort）是一种简单直观的排序算法。它的工作原理是首先在未排序序列中找到最小（大）元素，存放到排序序列的起始位置，然后，再从剩余未排序元素中继续寻找最小（大）元素，然后放到已排序序列的末尾。以此类推，直到所有元素均排序完毕。以下为核心代码段，可单独作为排序函数</li></ul><figure class="highlight c#"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span> (<span class="built_in">int</span> i = <span class="number">0</span>; i &lt; n - <span class="number">1</span>; i++)</span><br><span class="line">&#123;</span><br><span class="line">    <span class="built_in">int</span> minIndex = i;</span><br><span class="line">    <span class="keyword">for</span> (<span class="built_in">int</span> j = i + <span class="number">1</span>; j &lt; n; j++)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">if</span> (arr[j] &lt; arr[minIndex])</span><br><span class="line">        &#123;</span><br><span class="line">            minIndex = j;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="comment">//将每次找到的最小元素放到已排序序列的末尾</span></span><br><span class="line">    <span class="built_in">int</span> temp = arr[i];</span><br><span class="line">    arr[i] = arr[minIndex];</span><br><span class="line">    arr[minIndex] = temp;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h1>递归</h1><ul><li>递归（Recursion）是一种编程技巧，它利用函数的调用自身的特点，来解决一些问题。递归函数一般都有一个基线条件，当这个条件满足时，递归函数就停止调用自身，并返回一个基准值。以下为递归函数的模板</li></ul><div class="note warning flat"><p>注意：递归函数的调用栈的最大深度受限于系统的内存限制，因此，在计算量大的情况下，递归函数的使用要慎重</p></div><figure class="highlight c#"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="built_in">int</span> <span class="title">factorial</span>(<span class="params"><span class="built_in">int</span> n</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">if</span> (n == <span class="number">1</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="number">1</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span></span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">return</span> n * factorial(n - <span class="number">1</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h1>记忆化搜索 TODO</h1><!-- * 记忆化搜索（Memoization Search）是一种优化搜索算法，它通过存储中间结果，避免重复计算，从而达到优化搜索效率的目的。以下为核心代码段，可单独作为搜索函数```C#int[,] memo = new int[n + 1, n + 1];int minCost(int[] cost, int n){    if (n == 0 || n == 1)    {        return 0;    }    if (memo[n, cost[n - 1]] != -1)    {        return memo[n, cost[n - 1]];    }    int min = int.MaxValue;    for (int i = 1; i <= n; i++)    {        int temp = minCost(cost, n - i) + i * cost[n - 1];        if (temp < min)        {            min = temp;        }    }    memo[n, cost[n - 1]] = min;    return min;}``` -->]]></content>
     
     
     <summary type="html">是算法，有救了（雾</summary>
@@ -52,14 +71,14 @@
     
     
     
-    <category term="C#" scheme="http://bigknight53.github.io/tags/C/"/>
+    <category term="C" scheme="http://bigknight53.github.io/tags/C/"/>
     
     <category term="算法" scheme="http://bigknight53.github.io/tags/%E7%AE%97%E6%B3%95/"/>
     
   </entry>
   
   <entry>
-    <title>C# 矩阵转置与乘积</title>
+    <title>C 矩阵转置与乘积</title>
     <link href="http://bigknight53.github.io/posts/20241115a.html"/>
     <id>http://bigknight53.github.io/posts/20241115a.html</id>
     <published>2024-11-15T15:50:00.000Z</published>
@@ -73,12 +92,12 @@
     
     
     
-    <category term="C#" scheme="http://bigknight53.github.io/tags/C/"/>
+    <category term="C" scheme="http://bigknight53.github.io/tags/C/"/>
     
   </entry>
   
   <entry>
-    <title>C# 运算符与表达式</title>
+    <title>C 运算符与表达式</title>
     <link href="http://bigknight53.github.io/posts/20241020a.html"/>
     <id>http://bigknight53.github.io/posts/20241020a.html</id>
     <published>2024-10-20T14:10:00.000Z</published>
@@ -92,12 +111,12 @@
     
     
     
-    <category term="C#" scheme="http://bigknight53.github.io/tags/C/"/>
+    <category term="C" scheme="http://bigknight53.github.io/tags/C/"/>
     
   </entry>
   
   <entry>
-    <title>C# 语句中的选择结构和循环结构</title>
+    <title>C 语句中的选择结构和循环结构</title>
     <link href="http://bigknight53.github.io/posts/20241019a.html"/>
     <id>http://bigknight53.github.io/posts/20241019a.html</id>
     <published>2024-10-19T04:00:00.000Z</published>
@@ -111,7 +130,7 @@
     
     
     
-    <category term="C#" scheme="http://bigknight53.github.io/tags/C/"/>
+    <category term="C" scheme="http://bigknight53.github.io/tags/C/"/>
     
   </entry>
   
@@ -136,8 +155,8 @@
   
   <entry>
     <title>大学生活开始！</title>
-    <link href="http://bigknight53.github.io/posts/2024923a.html"/>
-    <id>http://bigknight53.github.io/posts/2024923a.html</id>
+    <link href="http://bigknight53.github.io/posts/20240923a.html"/>
+    <id>http://bigknight53.github.io/posts/20240923a.html</id>
     <published>2024-09-23T08:00:00.000Z</published>
     <updated>2024-10-05T14:00:00.000Z</updated>
     
@@ -155,8 +174,8 @@
   
   <entry>
     <title>Windows 11 无损修复更新</title>
-    <link href="http://bigknight53.github.io/posts/2023724a.html"/>
-    <id>http://bigknight53.github.io/posts/2023724a.html</id>
+    <link href="http://bigknight53.github.io/posts/20230724a.html"/>
+    <id>http://bigknight53.github.io/posts/20230724a.html</id>
     <published>2023-07-24T02:00:00.000Z</published>
     <updated>2023-07-24T02:00:00.000Z</updated>
     
@@ -174,8 +193,8 @@
   
   <entry>
     <title>Windows 11 小组件</title>
-    <link href="http://bigknight53.github.io/posts/202352a.html"/>
-    <id>http://bigknight53.github.io/posts/202352a.html</id>
+    <link href="http://bigknight53.github.io/posts/20230502a.html"/>
+    <id>http://bigknight53.github.io/posts/20230502a.html</id>
     <published>2023-05-02T14:00:00.000Z</published>
     <updated>2023-05-03T01:00:00.000Z</updated>
     
@@ -193,8 +212,8 @@
   
   <entry>
     <title>Markdown语法与外挂标签写法</title>
-    <link href="http://bigknight53.github.io/posts/2013454d.html"/>
-    <id>http://bigknight53.github.io/posts/2013454d.html</id>
+    <link href="http://bigknight53.github.io/posts/20220809a.html"/>
+    <id>http://bigknight53.github.io/posts/20220809a.html</id>
     <published>2022-08-09T10:19:03.000Z</published>
     <updated>2022-10-23T14:00:00.000Z</updated>
     
@@ -214,8 +233,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://bigknight53.github.io/posts/202141a.html"/>
-    <id>http://bigknight53.github.io/posts/202141a.html</id>
+    <link href="http://bigknight53.github.io/posts/20210401b.html"/>
+    <id>http://bigknight53.github.io/posts/20210401b.html</id>
     <published>2021-04-01T12:00:00.000Z</published>
     <updated>2023-05-02T14:00:00.000Z</updated>
     
