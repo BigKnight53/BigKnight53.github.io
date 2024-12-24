@@ -411,7 +411,7 @@ if (document.body.clientWidth > 992) {
         borderRadius: 5 + 'px',
         right: 55.6 + 'px',
         nekoImg: "https://gitee.com/BigKnight53/gallery/raw/master/icon/cat.webp",
-        hoverMsg: "到底了喵~",
+        hoverMsg: "戳我喵~",
         color: "var(--theme-color)",
         during: 500,
         blog_body: "body",
