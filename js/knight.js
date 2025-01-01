@@ -873,7 +873,7 @@ function createtime1() {
     "小站已经苟活",
     dnum,
     "天啦!",
-    "©2021 By 鲸落辰空",
+    "©2021-2025 By 鲸落辰空",
   ];
 
   setTimeout(
