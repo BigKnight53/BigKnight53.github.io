@@ -6481,11 +6481,10 @@ center#name-container {
 
 /* 一级菜单居中 */
 #nav .menus_items {
-  display: inline;
-  position: absolute;
-  width: max-content;
-  left: 50%;
-  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  position: relative;
 }
 
 #nav .menus_items .menus_item {
@@ -6493,46 +6492,27 @@ center#name-container {
   position: relative; /* 确保子菜单相对于父项定位 */
 }
 
-/* 子菜单横向展示 */
+/* 子菜单横向展示，并居中对齐 */
 #nav .menus_items .menus_item:hover .menus_item_child {
   display: flex;
+  justify-content: center;
   opacity: 1;
   transition: opacity 0.2s ease-in-out;
 }
 
 /* 子菜单定位 */
 #nav .menus_items .menus_item .menus_item_child {
-  position: absolute; /* 确保子菜单绝对定位 */
-  left: 50%; /* 定位在父项的中间 */
-  transform: translateX(-50%); /* 中心对齐 */
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
   display: none; /* 默认隐藏 */
-  opacity: 0; /* 默认透明输出 */
+  opacity: 0; /* 默认透明度 */
   transition: opacity 0.2s ease-in-out; /* 过渡效果 */
 }
 
-/* 细微位置调整，以确保子菜单对齐 */
-#nav .menus_items .menus_item:nth-child(2) .menus_item_child {
-  margin-left: -20px; /* 根据实际情况调整 */
-}
-
-#nav .menus_items .menus_item:nth-child(3) .menus_item_child {
-  margin-left: -20px; 
-}
-
-#nav .menus_items .menus_item:nth-child(4) .menus_item_child {
-  margin-left: -20px; 
-}
-
-#nav .menus_items .menus_item:nth-child(5) .menus_item_child {
-  margin-left: -20px; 
-}
-
-#nav .menus_items .menus_item:nth-child(6) .menus_item_child {
-  margin-left: -20px; 
-}
-
-#nav .menus_items .menus_item:nth-child(7) .menus_item_child {
-  margin-left: -20px; 
+/* 如果需要在特定子菜单项上进行位置微调 */
+#nav .menus_items .menus_item .menus_item_child.adjust-left {
+  margin-left: -20px;
 }
 
 /*top-img黑色透明玻璃效果移除，不建议加，除非你执着于完全一图流或者背景图对比色明显 */
