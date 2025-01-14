@@ -6481,38 +6481,59 @@ center#name-container {
 
 /* 一级菜单居中 */
 #nav .menus_items {
-  /* 这个带不带都可以，本来就是inline */
   display: inline;
-  position: absolute !important;
-  width: max-content !important;
-  left: 50% !important;
-  transform: translateX(-50%) !important;
+  position: absolute;
+  width: max-content;
+  left: 50%;
+  transform: translateX(-50%);
 }
+
 #nav .menus_items .menus_item {
-  padding: 0 0 0 8px !important;
+  padding: 0 0 0 8px;
+  position: relative; /* 确保子菜单相对于父项定位 */
 }
+
 /* 子菜单横向展示 */
 #nav .menus_items .menus_item:hover .menus_item_child {
-  display: flex !important;
+  display: flex;
+  opacity: 1; /* 确保子菜单可见 */
+  transition: opacity 0.2s ease-in-out; /* 添加过渡效果 */
 }
-/* 这里的2是代表导航栏的第二个元素，即有子菜单的元素，可以按自己需求修改 */
-.menus_items .menus_item:nth-child(2) .menus_item_child {
-  left: -95px;
+
+/* 统一子菜单位置调整 */
+#nav .menus_items .menus_item .menus_item_child {
+  position: absolute; /* 确保子菜单绝对定位 */
+  left: 50%; /* 默认定位到父项的中心 */
+  transform: translateX(-50%); /* 中心对齐 */
+  display: none; /* 默认隐藏 */
+  opacity: 0; /* 默认透明输出 */
+  transition: opacity 0.2s ease-in-out; /* 过渡效果 */
 }
-.menus_items .menus_item:nth-child(3) .menus_item_child {
-  left: -103px;
+
+/* 定位调整，使用calc确保灵活性 */
+#nav .menus_items .menus_item:nth-child(2) .menus_item_child {
+  /* 可以根据具体需求调整位置 */
+  margin-left: -95px; /* 可以根据设计进行微调 */
 }
-.menus_items .menus_item:nth-child(4) .menus_item_child {
-  left: -102px;
+
+#nav .menus_items .menus_item:nth-child(3) .menus_item_child {
+  margin-left: -103px;
 }
-.menus_items .menus_item:nth-child(5) .menus_item_child {
-  left: -117px;
+
+#nav .menus_items .menus_item:nth-child(4) .menus_item_child {
+  margin-left: -102px;
 }
-.menus_items .menus_item:nth-child(6) .menus_item_child {
-  left: -133px;
+
+#nav .menus_items .menus_item:nth-child(5) .menus_item_child {
+  margin-left: -117px;
 }
-.menus_items .menus_item:nth-child(7) .menus_item_child {
-  left: -105px;
+
+#nav .menus_items .menus_item:nth-child(6) .menus_item_child {
+  margin-left: -133px;
+}
+
+#nav .menus_items .menus_item:nth-child(7) .menus_item_child {
+  margin-left: -105px;
 }
 
 /*top-img黑色透明玻璃效果移除，不建议加，除非你执着于完全一图流或者背景图对比色明显 */
