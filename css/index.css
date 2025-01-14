@@ -6481,38 +6481,38 @@ center#name-container {
 
 /* 一级菜单居中 */
 #nav .menus_items {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  position: relative;
+  /* 这个带不带都可以，本来就是inline */
+  display: inline;
+  position: absolute !important;
+  width: max-content !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
 }
-
-/* 统一子菜单宽度 */
-#nav .menus_items .menus_item_child {
-  min-width: 100px; /* 根据需要调整 */
+#nav .menus_items .menus_item {
+  padding: 0 0 0 8px !important;
 }
-
-/* 子菜单横向展示，并居中对齐 */
+/* 子菜单横向展示 */
 #nav .menus_items .menus_item:hover .menus_item_child {
-  display: flex;
-  justify-content: center; 
-  opacity: 1;
-  transition: opacity 0.2s ease-in-out;
+  display: flex !important;
 }
-
-/* 子菜单定位 */
-#nav .menus_items .menus_item .menus_item_child {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  display: none; /* 默认隐藏 */
-  opacity: 0; /* 默认透明度 */
-  transition: opacity 0.2s ease-in-out; /* 过渡效果 */
+/* 这里的2是代表导航栏的第二个元素，即有子菜单的元素，可以按自己需求修改 */
+.menus_items .menus_item:nth-child(2) .menus_item_child {
+  left: -95px;
 }
-
-/* 需要的情况下对子菜单位置进行微调 */
-#nav .menus_items .menus_item:hover .menus_item_child.adjust-left {
-  margin-left: -20px; /* 根据需要调整 */
+.menus_items .menus_item:nth-child(3) .menus_item_child {
+  left: -103px;
+}
+.menus_items .menus_item:nth-child(4) .menus_item_child {
+  left: -102px;
+}
+.menus_items .menus_item:nth-child(5) .menus_item_child {
+  left: -117px;
+}
+.menus_items .menus_item:nth-child(6) .menus_item_child {
+  left: -133px;
+}
+.menus_items .menus_item:nth-child(7) .menus_item_child {
+  left: -105px;
 }
 
 /*top-img黑色透明玻璃效果移除，不建议加，除非你执着于完全一图流或者背景图对比色明显 */
