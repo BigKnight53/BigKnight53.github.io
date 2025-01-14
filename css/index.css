@@ -6479,28 +6479,48 @@ center#name-container {
     background-color: transparent!important;
 } */
 
-/* 一级菜单居中 */
-#nav.menus_items {
-  display: inline-flex; /* 使用 inline-flex 方便子元素布局 */
-  position: relative; /* 相对定位，方便子元素的绝对定位参照 */
-  justify-content: center; /* 水平居中子元素 */
-  width: max-content;
-}
 
-#nav.menus_items.menus_item {
-  padding: 0 0 0 8px;
-}
 
+#nav .menus_items {
+  /* 这个带不带都可以，本来就是inline */
+  display: inline;
+  position: absolute !important;
+  width: max-content !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+}
+#nav .menus_items .menus_item {
+  padding: 0 0 0 8px !important;
+}
 /* 子菜单横向展示 */
-#nav.menus_items.menus_item:hover.menus_item_child {
-  display: flex;
-  flex-direction: row; /* 明确横向排列子元素 */
-  position: absolute; /* 绝对定位子菜单 */
-  top: 100%; /* 使子菜单出现在父菜单的下方 */
-  left: 0; /* 初始位置为父菜单的左侧 */
-  /* 可以根据需要调整子菜单的左右偏移量，使用 calc 函数动态计算 */
-  transform: translateX(calc(-50% + 8px)); /* 考虑父菜单的 padding 进行偏移 */
+#nav .menus_items .menus_item:hover .menus_item_child {
+  display: flex !important;
 }
+
+/*
+这里的2是代表导航栏的第二个元素，即有子菜单的元素，可以按自己需求修改 
+
+.menus_items .menus_item:nth-child(2) .menus_item_child {
+  left: -95px;
+}
+.menus_items .menus_item:nth-child(3) .menus_item_child {
+  left: -103px;
+}
+.menus_items .menus_item:nth-child(4) .menus_item_child {
+  left: -102px;
+}
+.menus_items .menus_item:nth-child(5) .menus_item_child {
+  left: -117px;
+}
+.menus_items .menus_item:nth-child(6) .menus_item_child {
+  left: -133px;
+}
+.menus_items .menus_item:nth-child(7) .menus_item_child {
+  left: -105px;
+}
+*/
+
+
 
 /*top-img黑色透明玻璃效果移除，不建议加，除非你执着于完全一图流或者背景图对比色明显 */
 /* #page-header:not(.not-top-img):before {
