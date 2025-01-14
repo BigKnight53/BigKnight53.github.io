@@ -6487,15 +6487,15 @@ center#name-container {
   position: relative;
 }
 
-#nav .menus_items .menus_item {
-  padding: 0 0 0 8px;
-  position: relative; /* 确保子菜单相对于父项定位 */
+/* 统一子菜单宽度 */
+#nav .menus_items .menus_item_child {
+  min-width: 100px; /* 根据需要调整 */
 }
 
 /* 子菜单横向展示，并居中对齐 */
 #nav .menus_items .menus_item:hover .menus_item_child {
   display: flex;
-  justify-content: center;
+  justify-content: center; 
   opacity: 1;
   transition: opacity 0.2s ease-in-out;
 }
@@ -6510,9 +6510,9 @@ center#name-container {
   transition: opacity 0.2s ease-in-out; /* 过渡效果 */
 }
 
-/* 如果需要在特定子菜单项上进行位置微调 */
-#nav .menus_items .menus_item .menus_item_child.adjust-left {
-  margin-left: -20px;
+/* 需要的情况下对子菜单位置进行微调 */
+#nav .menus_items .menus_item:hover .menus_item_child.adjust-left {
+  margin-left: -20px; /* 根据需要调整 */
 }
 
 /*top-img黑色透明玻璃效果移除，不建议加，除非你执着于完全一图流或者背景图对比色明显 */
