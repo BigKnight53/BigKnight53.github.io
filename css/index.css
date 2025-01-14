@@ -6497,28 +6497,25 @@ center#name-container {
   display: flex !important;
 }
 
-/*
-这里的2是代表导航栏的第二个元素，即有子菜单的元素，可以按自己需求修改 
-
-.menus_items .menus_item:nth-child(2) .menus_item_child {
-  left: -95px;
+/* 这里的2是代表导航栏的第二个元素，即有子菜单的元素，可以按自己需求修改 */
+.menus_items.menus_item:nth-child(2).menus_item_child {
+  left: -20%; /* 使用相对单位，根据父容器调整位置 */
 }
-.menus_items .menus_item:nth-child(3) .menus_item_child {
-  left: -103px;
+.menus_items.menus_item:nth-child(3).menus_item_child {
+  left: -22%;
 }
-.menus_items .menus_item:nth-child(4) .menus_item_child {
-  left: -102px;
+.menus_items.menus_item:nth-child(4).menus_item_child {
+  left: -21%;
 }
-.menus_items .menus_item:nth-child(5) .menus_item_child {
-  left: -117px;
+.menus_items.menus_item:nth-child(5).menus_item_child {
+  left: -25%;
 }
-.menus_items .menus_item:nth-child(6) .menus_item_child {
-  left: -133px;
+.menus_items.menus_item:nth-child(6).menus_item_child {
+  left: -28%;
 }
-.menus_items .menus_item:nth-child(7) .menus_item_child {
-  left: -105px;
+.menus_items.menus_item:nth-child(7).menus_item_child {
+  left: -22%;
 }
-*/
 
 
 
