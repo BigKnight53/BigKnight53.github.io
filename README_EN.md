@@ -13,7 +13,7 @@ Simple little homepage, had enough of the original one and made a new one
 
 >Due to CDN caching, you may need `Ctrl` + `F5` to force a browser cache refresh to see the latest results
 
-- [Auroraの主页](http://www.wuhobin.top)
+- [鲸落辰空の主页](https://bigknight53.github.io)
 
 
 ### Functions
