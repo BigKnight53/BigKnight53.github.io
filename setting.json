@@ -1,0 +1,46 @@
+{
+    "title": "Auroraの主页",
+    "description": "一个默默无闻的主页",
+    "keywords": "Aurora,个人主页",
+    "author": "Aurora",
+    "logo_img": "./img/icon/avatar.jpg",
+    "logo_text_1": "wuhobin",
+    "logo_text_2": "top",
+    "github": "wuhobin",
+    "qq": "1289066006",
+    "email": "1289066006@qq.com",
+    "bilibili": "495003013",
+    "facebook": "bottom_user",
+    "link_1": [
+        "http://blog.wuhobin.top/",
+        "fa-solid fa-blog",
+        "博客"
+    ],
+    "link_2": [
+        "https://tongji.baidu.com/",
+        "fa-solid fa-cloud",
+        "统计"
+    ],
+    "link_3": [
+        "http://www.wuhobin.top/",
+        "fa-solid fa-compass",
+        "起始页"
+    ],
+    "link_4": [
+        "https://codenote.wuhobin.top",
+        "fa-solid fa-book-bookmark",
+        "编程宝典"
+    ],
+    "link_5": [
+        "http://www.wuhobin.top/",
+        "fa-solid fa-flask",
+        "开发中..."
+    ],
+    "link_6": [
+        "http://www.wuhobin.top/",
+        "fa-solid fa-flask",
+        "敬请期待..."
+    ],
+    "Copyright_text": "Aurora",
+    "beian": "鄂ICP备20006685号"
+}
