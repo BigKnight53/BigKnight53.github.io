@@ -22108,6 +22108,7 @@ body[data-type="essay"] #web_bg {
   display: flex;
   flex-direction: column;
   text-align: justify;
+  word-break: break-all;
 }
 #bber p {
   margin: 0px;
@@ -22812,6 +22813,42 @@ svg.icon.faa-tada {
 }
 .bangumi-info-item em {
   color: #f2b94b;
+}
+
+/* 修复 bgm 数据源封面尺寸不一致问题 */
+.bangumi-picture {
+  width: 110px !important;
+  height: 155px !important;
+  overflow: hidden;
+  border-radius: 8px;
+  background: var(--anzhiyu-secondbg);
+}
+
+.bangumi-picture img {
+  width: 110px !important;
+  height: 155px !important;
+  object-fit: cover;
+  object-position: center top;
+  margin: 0 !important;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.bangumi-item:hover .bangumi-picture img {
+  transform: scale(1.05);
+}
+
+/* 优化番剧条目间距 */
+.bangumi-item {
+  min-height: 175px !important;
+  padding: 10px 0 !important;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.bangumi-item:hover {
+  background: var(--anzhiyu-card-bg);
+  box-shadow: var(--anzhiyu-shadow-border);
 }
 
 /*哔哩哔哩视频适配*/
@@ -27174,6 +27211,13 @@ div#runtime {
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
+}
+#article-container .tag-Link .tag-link-bottom .tag-link-left .tag-link-favicon {
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+  border-radius: 4px;
 }
 #article-container .tag-Link .tag-link-bottom .tag-link-left i {
   margin: 0;
